@@ -203,7 +203,7 @@ const workExperiences = {
       role: "Intern",
       company: "Inflow Technologies",
       companylogo: require("./assets/images/inflowLogo.png"),
-      date: "Jan 2015 – Sep 2015",
+      date: "April 2022 – June 2022",
       desc: "Crime Rate Forecasting using FbProphet",
       descBullets: [
         "Analysing the Chicago Crime rate from 2001 to 2016 and predicting crime rate statistics in 2017 given the historical trend"
