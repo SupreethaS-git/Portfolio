@@ -40,7 +40,7 @@ const socialMediaLinks = {
   facebook: "",
   medium: "https://medium.com/@supreetha.shrinivas",
   stackoverflow: "https://stackoverflow.com/users/17221711/supreetha-shrinivas",
-  kaggle:"https://www.kaggle.com/supreethashrinivas",
+  kaggle: "https://www.kaggle.com/supreethashrinivas",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -50,15 +50,17 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "EAGER SOFTWARE ENGINEER PASSIONATE ABOUT PUSHING TECHNICAL BOUNDARIES ACROSS THE STACK",
+  subTitle:
+    "EAGER SOFTWARE ENGINEER PASSIONATE ABOUT PUSHING TECHNICAL BOUNDARIES ACROSS THE STACK",
   skills: [
     emoji(
       "⚡  Proficient in Java, C, C++, and Python (pandas, numpy, sklearn, seaborn, matplotlib, OpenCV), with expertise in web development using Next.js, NestJS, and React. Well-versed in data analysis and visualization tools, including Tableau, PowerBI."
     ),
-    emoji("⚡ Specializing in Next.js, NestJS, GenAI (Langchain), Airflow, PySpark, Apache Kafka, and Flutter."),
+    emoji(
+      "⚡ Specializing in Next.js, NestJS, GenAI (Langchain), Airflow, PySpark, Apache Kafka, and Flutter."
+    ),
     emoji(
       "⚡ Proficiency in computer vision and classification algorithms using Python (OpenCV). Skilled in image processing, segmentation, and pose estimation."
-
     )
   ],
 
@@ -129,8 +131,7 @@ const educationInfo = {
       subHeader: "Bachelor of Engineering in Computer Science",
       duration: "August 2019 - May 2023",
       desc: "Achieved a CGPA of 9.54, reflecting a commitment to academic excellence and a solid foundation in computer science and engineering.",
-      descBullets: [
-      ]
+      descBullets: []
     },
     {
       schoolName: "St Paul's English School",
@@ -183,8 +184,7 @@ const workExperiences = {
       companylogo: require("./assets/images/hashedinLogo.png"),
       date: "March 2023 – June 2023",
       desc: "Gained comprehensive training in Next.js, NestJS, GenAI(Langchain), Airflow, PySpark, Apache Kafka and Flutter. Developed a GenAI based chatbot using LLM, a news rendering app using flutter and a clone of Jira app using Next.js and NestJS.",
-      descBullets: [
-      ]
+      descBullets: []
     },
     {
       role: "Intern",
@@ -192,9 +192,11 @@ const workExperiences = {
       companylogo: require("./assets/images/iitmLogo.png"),
       date: "December 2021 - February 2022",
       desc: "Detection of cotton boll using Computer Vision and Classification Algorithms.",
-      descBullets: [ "Language used: Python(OpenCV)",
+      descBullets: [
+        "Language used: Python(OpenCV)",
         "Capturing image of cotton plant. Image processing by Binarization.",
-        "Segmentation of the image to detect cotton boll. Algorithms used: K-Means clustering and colour masking."," Camera calibration for pose estimation using Zang’s technique on a chessboard."
+        "Segmentation of the image to detect cotton boll. Algorithms used: K-Means clustering and colour masking.",
+        " Camera calibration for pose estimation using Zang’s technique on a chessboard."
       ]
     },
     {
@@ -203,9 +205,9 @@ const workExperiences = {
       companylogo: require("./assets/images/inflowLogo.png"),
       date: "Jan 2015 – Sep 2015",
       desc: "Crime Rate Forecasting using FbProphet",
-      descBullets: ["Analysing the Chicago Crime rate from 2001 to 2016 and predicting crime rate statistics in 2017 given the historical trend" ],
-      
-  
+      descBullets: [
+        "Analysing the Chicago Crime rate from 2001 to 2016 and predicting crime rate statistics in 2017 given the historical trend"
+      ]
     }
   ]
 };
@@ -227,7 +229,8 @@ const bigProjects = {
     {
       image: "", // require("./assets/images/nextuLogo.webp"),
       projectName: "A ChatBot to automate Data Engineering Tasks",
-      projectDesc: "The chatbot leverages NLP to automate data analysis tasks like visualization, trend prediction and querying. Technologies used: Django, GenAI(Langchain) MilvusDB, Next.js",
+      projectDesc:
+        "The chatbot leverages NLP to automate data analysis tasks like visualization, trend prediction and querying. Technologies used: Django, GenAI(Langchain) MilvusDB, Next.js",
       footerLink: [
         // {
         //   name: "Visit Website",
@@ -239,7 +242,8 @@ const bigProjects = {
     {
       image: "", // require("./assets/images/nextuLogo.webp"),
       projectName: "A Text Analysis Tool for Research papers",
-      projectDesc: "Given multiple research papers, the tool creates a combined summary in which each line in the summary is classified into the role they play. Language used: Python (tensorflow)",
+      projectDesc:
+        "Given multiple research papers, the tool creates a combined summary in which each line in the summary is classified into the role they play. Language used: Python (tensorflow)",
       footerLink: [
         // {
         //   name: "Visit Website",
@@ -252,7 +256,8 @@ const bigProjects = {
       image: "",
       // require("./assets/images/nextuLogo.webp"),
       projectName: "Documentation Helper",
-      projectDesc: "A generative AI application that answers questions regarding any documentation as per the user’s requirement. Technologies used:LangChain, Pinecone, Streamlit",
+      projectDesc:
+        "A generative AI application that answers questions regarding any documentation as per the user’s requirement. Technologies used:LangChain, Pinecone, Streamlit",
       footerLink: [
         // {
         //   name: "Visit Website",
@@ -263,7 +268,8 @@ const bigProjects = {
     {
       image: "", // require("./assets/images/nextuLogo.webp"),
       projectName: "A News Rendering App",
-      projectDesc: "A dynamic news rendering app using Flutter, bringing you real-time updates and news content in a visually engaging and user-friendly interface. Technologies used:Flutter, Axios",
+      projectDesc:
+        "A dynamic news rendering app using Flutter, bringing you real-time updates and news content in a visually engaging and user-friendly interface. Technologies used:Flutter, Axios",
       footerLink: [
         // {
         //   name: "Visit Website",
@@ -281,13 +287,12 @@ const bigProjects = {
 
 const achievementSection = {
   title: emoji("Achievements And Certifications  "),
-  subtitle:
-    "Achievements and Certifications I have done !",
+  subtitle: "Achievements and Certifications I have done !",
 
   achievementsCards: [
     {
       title: "Won Second Prize in HashedIn University product month",
-      subtitle:"",
+      subtitle: "",
       image: require("./assets/images/hashedinLogo.png"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
@@ -299,7 +304,7 @@ const achievementSection = {
     },
     {
       title: "Udemy-LangChain- Develop LLM powered applications with LangChain",
-      subtitle:"",
+      subtitle: "",
       image: require("./assets/images/udemyLogo.png"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
@@ -311,12 +316,16 @@ const achievementSection = {
     },
 
     {
-      title: "Certificate of participation in Machine Learning-Linear Regression course developed by SSC NASSCOM",
+      title:
+        "Certificate of participation in Machine Learning-Linear Regression course developed by SSC NASSCOM",
       subtitle: "",
       image: require("./assets/images/nasscomLogo.png"),
       imageAlt: "Nasscom Logo",
       footerLink: [
-        {name: "Certification", url: "https://drive.google.com/file/d/17iVYG8Et30qQBVoMH3fTy628vxdtw047/view?usp=sharing"}
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/17iVYG8Et30qQBVoMH3fTy628vxdtw047/view?usp=sharing"
+        }
       ]
     }
   ],
