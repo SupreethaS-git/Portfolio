@@ -26,7 +26,7 @@ const greeting = {
     "An enthusiastic Software Development Engineer 🚀 starting out on my journey in the world of web and mobile application development. I have a solid foundation in JavaScript, React.js, Node.js, and I'm eager to learn and grow in this dynamic field."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1tNzWDsY1Yhb1TuH7JMAyVJV3jnDqZgTe/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1S-y3nCgYQW95dS3Z5G8dlyxWVNloMDUW/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -144,7 +144,7 @@ const educationInfo = {
     {
       schoolName: "The Oxford English School",
       logo: require("./assets/images/oxfordLogo.png"),
-      subHeader: "Indian School Certificate",
+      subHeader: "Indian Certificate of Secondary Education",
       duration: "June 2004 - May 2017",
       desc: "Earned a remarkable percentage of 94.8, showcasing not only academic excellence but also my active participation in extracurricular activities. Honored with the 'Best Outgoing Student' award, underscoring my well-rounded achievements and contributions.",
       descBullets: []
